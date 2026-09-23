@@ -1,0 +1,7 @@
+{
+  "id": "com.wesley.always_glowing_master_sword",
+  "name": "Always Glowing Master Sword",
+  "version": "@PROJECT_VERSION@",
+  "author": "Wesley",
+  "description": "Keeps the Master Sword Light Sword material state enabled."
+}
