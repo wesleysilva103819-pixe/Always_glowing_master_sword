@@ -15,7 +15,8 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Install Android NDK
-  run: $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager "ndk;29.0.14206865"
+        run: $ANDROID_HOME/cmdline-tools/
+        latest/bin/sdkmanager "ndk;29.0.14206865"
       
       - name: Configure
         run: |
