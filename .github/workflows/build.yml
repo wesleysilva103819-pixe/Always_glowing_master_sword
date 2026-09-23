@@ -14,9 +14,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Android
-        uses: android-actions/setup-android@v3
-
       - name: Install Android NDK
         run: sdkmanager "ndk;29.0.14206865"
 
